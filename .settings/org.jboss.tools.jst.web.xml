@@ -70,7 +70,23 @@
  <file-system NAME="lib-jstl-impl.jar"
   location="D:\Users\kyao4\MyEclipse Professional 2014\plugins\com.genuitec.eclipse.j2eedt.core_11.5.0.me201311281640\data\libraryset\JSTL1.2.1\lib\jstl-impl.jar" model-entity="FileSystemJar"/>
  <file-system NAME="lib-primefaces-6.0.jar"
-  location="D:\Users\K.Yao\Workspaces\MyEclipse Professional 2014\JSF_sample\lib\primefaces-6.0.jar" model-entity="FileSystemJar"/>
+  location="D:\Users\K.Yao\Workspaces\MyEclipse Professional 2014\JSF_sample\WebRoot\WEB-INF\lib\primefaces-6.0.jar" model-entity="FileSystemJar"/>
+ <file-system NAME="lib-catalina-storeconfig.jar"
+  location="D:\Program Files\Apache Software Foundation\Tomcat 9.0\lib\catalina-storeconfig.jar" model-entity="FileSystemJar"/>
+ <file-system NAME="lib-ecj-4.6.1.jar"
+  location="D:\Program Files\Apache Software Foundation\Tomcat 9.0\lib\ecj-4.6.1.jar" model-entity="FileSystemJar"/>
+ <file-system NAME="lib-jaspic-api.jar"
+  location="D:\Program Files\Apache Software Foundation\Tomcat 9.0\lib\jaspic-api.jar" model-entity="FileSystemJar"/>
+ <file-system NAME="lib-tomcat-jni.jar"
+  location="D:\Program Files\Apache Software Foundation\Tomcat 9.0\lib\tomcat-jni.jar" model-entity="FileSystemJar"/>
+ <file-system NAME="lib-tomcat-util-scan.jar"
+  location="D:\Program Files\Apache Software Foundation\Tomcat 9.0\lib\tomcat-util-scan.jar" model-entity="FileSystemJar"/>
+ <file-system NAME="lib-tomcat-websocket.jar"
+  location="D:\Program Files\Apache Software Foundation\Tomcat 9.0\lib\tomcat-websocket.jar" model-entity="FileSystemJar"/>
+ <file-system NAME="lib-websocket-api.jar"
+  location="D:\Program Files\Apache Software Foundation\Tomcat 9.0\lib\websocket-api.jar" model-entity="FileSystemJar"/>
+ <file-system NAME="lib-javax.faces-2.2.4.jar"
+  location="D:\Users\kyao4\MyEclipse Professional 2014\configuration\org.eclipse.osgi\bundles\38\1\.cp\data\2.2\Mojarra\javax.faces-2.2.4.jar" model-entity="FileSystemJar"/>
  <web SERVLET_VERSION="2.4" model-entity="JstWeb" model-path="/web.xml">
   <module URI="/WEB-INF/faces-config.xml" model-entity="WebJSFModule"
    model-path="/faces-config.xml" src="src" web-root="WEB-ROOT"/>
