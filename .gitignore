@@ -1,2 +1,5 @@
 #metadata
 /.metadata
+
+#Java
+#/WebRoot/WEB-INF/classes
