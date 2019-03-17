@@ -11,11 +11,10 @@ import javax.servlet.ServletRequest;
 import javax.servlet.ServletResponse;
 import javax.servlet.http.HttpServletRequest;
 
-public class logFilter implements Filter {
+public class LogFilter implements Filter {
 
 	private ServletContext servletContext = null;
 	
-	private FilterConfig filterConfig = null;
 	
 	private String servletName = null;
 	
@@ -29,7 +28,7 @@ public class logFilter implements Filter {
 	public void doFilter(ServletRequest arg0, ServletResponse arg1, FilterChain arg2)
 			throws IOException, ServletException {
 		HttpServletRequest request = (HttpServletRequest)arg0;
-		servletContext.log("servletName:" + servletName + " " + 
+		servletContext.log("filterName:" + servletName + " " + 
 			"remoteHost:" + request.getRemoteHost() + " " + 
 			"requestURL:" + request.getRequestURL());
 		arg2.doFilter(arg0, arg1);
@@ -37,7 +36,6 @@ public class logFilter implements Filter {
 
 	@Override
 	public void init(FilterConfig arg0) throws ServletException {
-		this.filterConfig = arg0;
 		this.servletContext = arg0.getServletContext();
 		this.servletName = arg0.getFilterName();
 	}
