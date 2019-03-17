@@ -25,4 +25,20 @@
     <welcome-file-list>
         <welcome-file>faces/index.xhtml</welcome-file>
     </welcome-file-list>
+    
+    
+    <!-- Practice servlet programming -->
+    <filter>
+    	<filter-name>Logger</filter-name>
+    	<filter-class>coreservlets.filters.logFilter</filter-class>
+    </filter>
+    <filter-mapping>
+    	<filter-name>Logger</filter-name>
+    	<url-pattern>/logger</url-pattern>
+    </filter-mapping>
+    <filter-mapping>
+    	<filter-name>Logger</filter-name>
+    	<servlet-name>Faces Servlet</servlet-name>
+    </filter-mapping>
+    
 </web-app>
