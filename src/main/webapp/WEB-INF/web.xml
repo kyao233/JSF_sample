@@ -52,7 +52,7 @@
     </filter>
     <filter-mapping>
     	<filter-name>LateAccessFilter</filter-name>
-    	<servlet-name>Faces Servlet</servlet-name>
+    	<servlet-name>Faces Servlet</servlet-name> <!-- url-parttern tag is used for jsp page -->
     </filter-mapping>
     
     
